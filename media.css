@@ -1,0 +1,2025 @@
+/* media query for different devices */
+
+
+@media (min-width:240px) and (max-width:479px){
+   *{
+    padding: 0;
+    margin: 0;
+   }
+
+   .nav .ul{
+    color: black;
+    display: flex;
+    flex: auto;
+    align-items: flex-start;
+    list-style: none;
+    justify-content:space-between ;
+    font-weight: 500;
+    padding: 10px;
+  }
+
+  .select{
+    background: transparent;
+    font-weight: 500;
+    border: 0;
+    padding: 0px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+    .hero{
+        height: 600px;
+        background-size: cover;
+        width: auto;
+    }
+    .hero h1{
+        padding-top: 200px;
+        font-size: 40px;
+    }
+    .hero h2{
+        font-size: 16px;
+    }
+    .btntr,.btn1{
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .hero2-container{
+       height: auto;
+    }
+    .hero2 p{
+        padding: 20px 40px 20px 40px;
+        text-align: justify;
+
+    }
+    .heroimgdiv{
+        display: block;
+       
+    }
+    .heroimg,.heroimg1,.heroimg2,.heroimg3{
+        top: 0;
+        position: relative;
+        left: 0;
+        margin: 10px;
+        border: 20px solid white;
+        height: 200px;
+        transform: none;
+        width: 300px;
+    }
+
+    .hero3-container{
+     height: auto;
+     padding: 10px;
+    }
+
+    .hero3{
+        padding: 40px;
+    }
+    
+
+    .hero3 ul{
+     padding: 0;
+     align-items: center;    
+     display: block;      
+    }
+
+    .hero3 ul li{
+     padding: 10px;
+    }
+
+    .hero3 ul .list p{
+        width: 100%;
+    }
+
+    .hero3 .list{
+        padding: 20px;
+    }
+    
+    .hero3 ul .list h1{
+        padding: 0;
+    }
+
+    .hero4-container{
+        height: auto;
+    }
+
+    .hero4 h1{
+        padding-top: 40px;
+        width:auto ;
+    }
+    .hero4 p{
+        padding: 20px 40px 20px 40px;
+        text-align: justify;
+    }
+
+    .multiphotos{
+        height: 800px;
+        width: 100%;
+    }
+    
+    .remainphotos{
+      flex: 50%;
+      width: 50%;
+      height: 50%;
+    }
+    
+    .fiftyphoto{
+      width: 100%;
+      height: 400px;
+    }
+    
+    .bottomphoto{
+      width: 100%;
+      height: 200px;
+    }
+    
+    .bottomphoto1{
+      width: 100%;
+      height:200px;
+    }
+    
+    .otherphoto{
+      width: 50%;
+      height: 200px;
+
+    }
+    .otherphoto1{
+      width: 50%;
+      height: 200px;
+    }
+    
+    
+    .btnh4{
+        margin: 40px;
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .hero5-container{
+        padding: 20px;
+        padding-bottom: 0;
+      }
+      
+      .hero5{
+          display: block;
+      }
+      
+      .h5left{
+        padding: 0;
+        padding-top: 20px;
+        text-align: justify;
+        width: 100%;
+      }
+      
+      .hero5 p{
+          padding-top: 20px;
+          line-height: 25px;
+      }
+      
+      .hero5 ul{
+          list-style: none;
+          font-size: 12px;
+          text-transform: uppercase;
+          font-weight: 600;
+          letter-spacing: 0;
+          line-height: 30px;
+      }
+      
+      .hero5 ul i{
+        color: #cf352e;
+      }
+      
+      .hero5img{
+          float: none;
+          padding: 0;
+          height: 250px;
+          width: 350px;
+      }
+
+  
+
+    .blog-container{
+        height: auto;
+    }
+    .blogs h1{
+        padding: 40px;
+        padding-bottom: 0px;
+    }
+
+    .blogs p{
+        padding: 20px 40px 0px 40px;
+        text-align: justify;
+        color: gray;
+        line-height: 30px;
+    }
+    
+    .blog1{
+        padding: 20px 20px 20px 20px;
+        width: 90%;
+        color: white;
+    }
+    .blogimg{
+        height: 150px;
+        padding-left:0px;
+        padding-top:0px;
+    }
+    
+    .blogimg1{
+        height: 150px;
+        padding-left:0px;
+        padding-top:0px;
+    }
+    
+    
+    .blogimg2{
+        height: 150px;
+        padding-left:0px;
+        padding-top:0px;
+    }
+    
+    .tag{
+        display: none;         
+    }
+    
+    
+    
+    .tag1{
+        padding:15px 25px;
+        display: flex;
+        background: #cf352e;
+        border: 5px solid white;
+        border-top: 0px;
+        margin-top: 0px;
+        
+    }
+    
+    .tag1 p{
+      color: white;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 16px;;
+    
+    }
+
+    .blogtext{
+        padding-left: 0px;
+        padding-top: 100px;
+        align-items: center;
+      }
+      
+      .blogtext h3{
+        padding-top: 60px;
+        font-size: 14px;
+          text-align: left;
+          cursor: pointer;
+          color: black;
+      }
+      
+      .blogtext .h41{
+        display: flexbox;
+        flex-wrap: wrap;
+          padding-right: 0px;
+          padding-top: 90px;
+          color: gray;
+          text-align: center;
+          text-decoration: none;
+      }
+      
+      .blogtext .h41 h4{
+        font-size: 12px;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+      
+      .blogtext span1{
+          margin: 0;
+          cursor: pointer;
+          margin-right: 10px;
+          letter-spacing: 1px;
+      }
+      
+      .blogbtn{
+      padding: 5px 10px;
+      text-transform: uppercase;
+      border: 1px solid black;
+      letter-spacing: 0px;
+      margin: 0;
+      cursor: pointer;
+      }
+      
+      .viewbtn{
+        margin-top: 20px;
+        padding: 6px 24px;
+        align-items: center;
+        background: transparent;
+        border: 1px solid black;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
+
+
+      .creative-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      
+      .creative{
+        margin: 0;
+        height: auto;
+      }
+      
+      .creative h1{
+        padding-top: 20px;
+        text-align: center;
+      }
+      
+      .creative p{
+        padding-top: 10px;
+        text-align: justify;
+        padding: 20px;
+      }
+      
+      .creative .gcontain{
+        display: block;
+        padding: 10px;
+        background: white;
+        height: 100vh;
+        margin-top: 0px;
+        width: 100%;
+      }
+      
+      .creative .grid{
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+        background: whitesmoke;
+        float: none;
+        
+      }
+      .grid .info h4{
+        padding-top: 10px;
+        font-size: 18px;
+      }
+
+      .info h5{
+        font-size:14px ;
+      }
+      
+      .info p{
+        padding: 10px;
+        font-size: 14px;
+        text-align: justify;
+      }
+      .info .i{
+        display: flex;
+        padding: 10px;
+        float: right;
+        letter-spacing: 10px;
+      }
+
+      .grid .info2 h4{
+        padding-top: 10px;
+        font-size: 18px;
+      }
+
+      .info2 h5{
+        font-size:14px ;
+      }
+      
+      .info2 p{
+        padding: 10px;
+        font-size: 14px;
+        text-align: justify;
+      }
+      .grid .info2 .i{
+        display: flex;
+        padding: 10px;
+        float: left;
+        letter-spacing: 10px;
+      }
+
+
+
+      
+      .grid .data{
+        float: right;
+        height: 200px;
+        padding: 10px;
+        border: 10px solid white;
+        width: 48%;
+        
+      }
+      
+      .grid .data1{
+        float: left;
+        height: 200px;
+        padding: 10px;
+        border: 10px solid white;
+        width: 48%;
+
+      }
+      
+      .grid .data2{
+        float: right;
+        border: 10px solid white;
+        height: 200px;
+        width: 48%;
+        padding: 10px;
+        
+      }
+      
+      
+      .grid .data3{
+        float: left;
+        height: 200px;
+        border: 10px solid white;
+        padding: 10px;
+        width: 48%;
+      }
+      
+      .grid .info{
+        margin-top: 30px;
+        margin-right: 20px;
+        height: 100%;
+        text-align: right;
+        line-height: 1.7;
+        width: auto;
+      }
+      
+
+        .membersbtn{
+          margin-top: 80px;
+          margin-bottom: 40px;        
+          background: transparent;
+          padding: 5px 20px;
+          font-size: 14px;
+          border: 1px solid black;
+          text-transform: capitalize;
+          cursor: pointer;
+          letter-spacing: 2px;
+        }
+
+        .qsection{
+          height: 300px;
+        }
+
+      
+        .qsection i{
+          font-size: 20px;
+        }
+      
+        .qcontent p{
+          padding: 10px;
+          font-size: 14px;
+          text-align: justify;
+          font-style: italic;
+          color: gray;
+        }
+      
+        .qsection p span{
+          color: #cf352e;
+          line-height: 14px;
+          font-style: italic;
+        }
+        
+        .qsection h5{
+          font-style: italic;
+          font-size: 10px;
+          color: gray;
+        }
+
+
+
+        footer{
+
+          margin: 0;
+          height: auto;
+          color: white;
+          background: #28282B;
+        }
+      
+        .fsection{
+          align-items: center;
+        }
+      
+        .connectus{
+          display: flex;
+          padding: 10px;
+        }
+        .connectus h3{
+          font-size: 18px;
+          padding: 10px;
+          margin-top: 10px;
+          margin-left: 0px;
+          margin-right: auto;
+        }
+      
+        .connectus i{
+          margin-right: 20px;
+        }
+      
+        .aboutsec{
+          display: block;
+          margin-top: 0px;
+          color: gray;
+          height: auto;
+        }
+      
+        .about{
+          display: block;
+          padding: 20px;
+         
+        }
+        .aboutsec h4{
+          padding-top: 0px;
+        }
+      
+        .about p{
+          width: 80%;
+          padding-top: 10px;
+          line-height: 25px;
+        }
+      
+        .about1{
+          display: block;
+          align-items: center;
+          padding: 20px;
+          padding-top: 0px;
+          font-size: 16px;
+          width: 80%;
+        }
+      
+      
+        .about1 address i{
+          padding-top: 20px;
+        }
+      
+      
+        .about1 address span{
+          line-height: 25px;
+          padding-left: auto;
+        }
+      
+        .about1 address span2{
+          padding-left: auto;
+        }
+      
+        .latestinfo{
+          padding-top: 20px;
+          display: flex;
+          width: auto;
+        }
+      
+        .latestphotos{
+          height: 80px;
+          width: 80px;
+        }
+      
+
+      
+         .photosrender{
+          display: flex;
+          flex-wrap: wrap;
+          width: auto;
+          padding-top: 20px;
+        }
+        .instaphotos{
+          margin: 1px;
+          background-size: cover;
+        }
+        .instaphotos img{
+          height: 78px;
+          width: 78px;
+        }
+      
+
+        .copyright{
+          width: 100vw;
+        }
+      
+        .copyright p{
+          align-items: center;
+          text-align: center;
+          padding-top: 20px;
+          text-transform: uppercase;
+          letter-spacing:4px;
+          font-size: 15px;
+          color: gray;
+        }
+      
+        .footerlogo{
+         align-items: center;
+         padding-top: 30px;
+         text-align: center;
+        }
+      
+      
+        .footerlogo h1{
+          padding: 10px;
+          display: inline;
+          border: 2px solid black;
+          font-size: 25px;
+          border: 2px solid white;
+        }
+      
+      
+    
+}
+
+
+@media (min-width:480px) and (max-width:767px){
+
+  .nav .ul{
+    align-items: flex-start;
+  }
+
+
+  .select{
+    background: transparent;
+    font-weight: 500;
+    border: 0;
+    gap: 0;
+    padding-left: 0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .logo{
+    margin-right: 0;
+    padding: 10px;
+    display: inline;
+    border: 2px solid black;
+}
+
+
+
+  .hero2-container{
+    height: auto;
+ }
+ .hero2 p{
+     padding: 20px 40px 20px 40px;
+     text-align: justify;
+ }
+
+ .heroimgdiv{
+  display: block;
+ 
+}
+.heroimg,.heroimg1,.heroimg2,.heroimg3{
+  top: 0;
+  position: relative;
+  left: 0;
+  margin: 10px;
+  border: 20px solid white;
+  height: 400px;
+  transform: none;
+  width: 80%;
+}
+
+.hero3-container{
+  height: auto;
+  padding: 10px;
+ }
+
+ .hero3{
+     padding: 40px;
+ }
+ 
+
+ .hero3 ul{
+  padding: 0;
+  align-items: center;    
+  display: block;      
+ }
+
+ .hero3 ul li{
+  padding: 10px;
+ }
+
+ .hero3 ul .list p{
+     width: 100%;
+ }
+
+ .hero3 .list{
+     padding: 20px;
+ }
+ 
+ .hero3 ul .list h1{
+     padding: 0;
+ }
+
+ .hero4-container{
+  height: auto;
+}
+
+.hero4 h1{
+  padding-top: 40px;
+  width:auto ;
+}
+.hero4 p{
+  padding: 20px 40px 20px 40px;
+  text-align: justify;
+}
+
+.multiphotos{
+  height: 1500px;
+  width: 100%;
+}
+
+.remainphotos{
+width: 50%;
+height: 50%;
+}
+
+.fiftyphoto{
+width: 100%;
+height: 50%;
+}
+
+.bottomphoto{
+width: 100%;
+height: 50%;
+}
+
+.bottomphoto1{
+width: 100%;
+height:50%;
+}
+
+.otherphoto{
+width: 50%;
+height: 100%;
+
+}
+.otherphoto1{
+width: 50%;
+height: 100%;
+}
+
+
+.btnh4{
+  margin: 40px;
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+      .hero5{
+          display: block;
+      }
+      
+      .h5left{
+        padding: 0;
+        padding-top: 20px;
+        text-align: justify;
+        width: 100%;
+      }
+      
+      .hero5 p{
+          padding-top: 20px;
+          line-height: 25px;
+      }
+      
+      .hero5 ul{
+          list-style: none;
+          font-size: 12px;
+          text-transform: uppercase;
+          font-weight: 600;
+          letter-spacing: 0;
+          line-height: 30px;
+      }
+      
+      .hero5 ul i{
+        color: #cf352e;
+      }
+      
+      .hero5img{
+          float: none;
+          padding: 0;
+          height: 250px;
+          width: 350px;
+      }
+      
+      .blog-container{
+        height: auto;
+    }
+    .blogs h1{
+        padding: 40px;
+        padding-bottom: 0px;
+    }
+
+    .blogs p{
+        padding: 20px 40px 0px 40px;
+        text-align: justify;
+        color: gray;
+        line-height: 30px;
+    }
+    
+    .blog1{
+        padding: 20px 20px 20px 20px;
+        width: 90%;
+        color: white;
+    }
+    .blogimg{
+        height: 150px;
+        padding-left:0px;
+        padding-top:0px;
+    }
+    
+    .blogimg1{
+        height: 150px;
+        padding-left:0px;
+        padding-top:0px;
+    }
+    
+    
+    .blogimg2{
+        height: 150px;
+        padding-left:0px;
+        padding-top:0px;
+    }
+    
+    .tag{
+        display: none;         
+    }
+    
+    
+    
+    .tag1{
+        padding:15px 30px;
+        display: flex;
+        background: #cf352e;
+        border: 5px solid white;
+        border-top: 0px;
+        margin-top: 0px;
+        
+    }
+    
+    .tag1 p{
+      color: white;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 16px;;
+    
+    }
+
+    .blogtext{
+        padding-left: 0px;
+        padding-top: 100px;
+        align-items: center;
+      }
+      
+      .blogtext h3{
+        padding-top: 60px;
+        font-size: 14px;
+          text-align: left;
+          cursor: pointer;
+          color: black;
+      }
+      
+      .blogtext .h41{
+        display: flexbox;
+        flex-wrap: wrap;
+          padding-right: 0px;
+          padding-top: 90px;
+          color: gray;
+          text-align: center;
+          text-decoration: none;
+      }
+      
+      .blogtext .h41 h4{
+        font-size: 12px;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+      
+      .blogtext span1{
+          margin: 0;
+          cursor: pointer;
+          margin-right: 10px;
+          letter-spacing: 1px;
+      }
+      
+      .blogbtn{
+      padding: 5px 10px;
+      text-transform: uppercase;
+      border: 1px solid black;
+      letter-spacing: 0px;
+      margin: 0;
+      cursor: pointer;
+      }
+      
+      .viewbtn{
+        margin-top: 20px;
+        padding: 6px 24px;
+        align-items: center;
+        background: transparent;
+        border: 1px solid black;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
+
+      .creative-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      
+      .creative{
+        margin: 0;
+        height: auto;
+      }
+      
+      .creative h1{
+        padding-top: 20px;
+        text-align: center;
+      }
+      
+      .creative p{
+        padding-top: 10px;
+        text-align: justify;
+        padding: 20px;
+      }
+      
+      .creative .gcontain{
+        display: block;
+        padding: 10px;
+        background: white;
+        height: 300px;
+        margin-top: 0px;
+        width: 100%;
+      }
+      
+      .creative .grid{
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+        background: whitesmoke;
+        float: none;
+        
+      }
+      .grid .info h4{
+        padding-top: 10px;
+        font-size: 18px;
+      }
+
+      .info h5{
+        font-size:14px ;
+      }
+      
+      .info p{
+        padding: 10px;
+        font-size: 14px;
+        text-align: justify;
+      }
+      .info .i{
+        display: flex;
+        padding: 10px;
+        float: right;
+        letter-spacing: 10px;
+      }
+
+      .grid .info2 h4{
+        padding-top: 10px;
+        font-size: 18px;
+      }
+
+      .info2 h5{
+        font-size:14px ;
+      }
+      
+      .info2 p{
+        padding: 10px;
+        font-size: 14px;
+        text-align: justify;
+      }
+      .grid .info2 .i{
+        display: flex;
+        padding: 10px;
+        float: right;
+        letter-spacing: 10px;
+      }
+
+
+
+      
+      .grid .data{
+        float: right;
+        height: 100%;
+        padding: 10px;
+        border: 10px solid white;
+        width: 48%;
+        
+      }
+      
+      .grid .data1{
+        float: left;
+        height: 100%;
+        padding: 10px;
+        border: 10px solid white;
+        width: 48%;
+
+      }
+      
+      .grid .data2{
+        float: right;
+        border: 10px solid white;
+        height: 100%;
+        width: 48%;
+        padding: 10px;
+        
+      }
+      
+      
+      .grid .data3{
+        float: left;
+        height: 100%;
+        border: 10px solid white;
+        padding: 10px;
+        width: 48%;
+      }
+      
+      .grid .info{
+        margin-top: 30px;
+        margin-right: 20px;
+        height: 100%;
+        text-align: right;
+        line-height: 1.7;
+        width: auto;
+      }
+      
+
+        .membersbtn{
+          margin-top: 80px;
+          margin-bottom: 40px;        
+          background: transparent;
+          padding: 5px 20px;
+          font-size: 14px;
+          border: 1px solid black;
+          text-transform: capitalize;
+          cursor: pointer;
+          letter-spacing: 2px;
+        }
+
+
+        .qsection{
+          height: auto;
+        }
+
+      
+        .qsection i{
+          font-size: 20px;
+        }
+      
+        .qcontent p{
+          padding: 10px;
+          font-size: 14px;
+          text-align: justify;
+          font-style: italic;
+          color: gray;
+        }
+      
+        .qsection p span{
+          color: #cf352e;
+          line-height: 10px;
+          font-style: italic;
+        }
+        
+        .qsection h5{
+          font-style: italic;
+          font-size: 10px;
+          color: gray;
+        }
+
+        footer{
+
+          margin: 0;
+          height: auto;
+          color: white;
+          background: #28282B;
+        }
+      
+        .fsection{
+          align-items: center;
+        }
+      
+        .connectus{
+          display: flex;
+          padding: 10px;
+        }
+        .connectus h3{
+          font-size: 18px;
+          padding: 10px;
+          margin-top: 10px;
+          margin-left: 0px;
+          margin-right: auto;
+        }
+      
+        .connectus i{
+          margin-right: 20px;
+        }
+      
+        .aboutsec{
+          display: block;
+          margin-top: 0px;
+          color: gray;
+          height: auto;
+        }
+      
+        .about{
+          display: block;
+          padding: auto;
+         
+        }
+        .aboutsec h4{
+          padding-top: 0px;
+        }
+      
+        .about p{
+          padding-top: 10px;
+          line-height: 25px;
+          width: auto;
+        }
+      
+        .about1{
+          display: block;
+          align-items: center;
+          padding: 40px;
+          padding-top: 0px;
+          font-size: 16px;
+          width: auto;
+        }
+      
+      
+        .about1 address i{
+          padding-top: 20px;
+          padding: 20px;
+        }
+      
+      
+        .about1 address span{
+          line-height: 25px;
+          padding-left: auto;
+        }
+      
+        .about1 address span2{
+          padding-left: auto;
+        }
+      
+        .latestinfo{
+          padding-top: 20px;
+          display: flex;
+          width: auto;
+        }
+      
+        .latestphotos{
+          height: 80px;
+          width: 80px;
+        }
+      
+
+        .photosrender{
+          display: flex;
+          flex-wrap: wrap;
+          width: auto;
+          padding-top: 20px;
+        }
+        .instaphotos{
+          margin: 1px;
+          background-size: cover;
+        }
+        .instaphotos img{
+          height: 78px;
+          width: 78px;
+        }
+      
+        .copyright{
+          width: 100vw;
+        }
+      
+        .copyright p{
+          align-items: center;
+          text-align: center;
+          padding-top: 40px;
+          text-transform: uppercase;
+          letter-spacing:4px;
+          font-size: 15px;
+          color: gray;
+        }
+      
+        .footerlogo{
+         align-items: center;
+         padding-top: 40px;
+         text-align: center;
+        }
+      
+      
+        .footerlogo h1{
+          padding: 10px;
+          display: inline;
+          border: 2px solid black;
+          font-size: 25px;
+          border: 2px solid white;
+        }
+
+        .blogbtn{
+          padding: 5px 10px;
+          text-transform: uppercase;
+          border: 1px solid black;
+          letter-spacing: 0px;
+          margin: 0;
+          cursor: pointer;
+          }
+          
+          .viewbtn{
+            margin-top: 20px;
+            padding: 6px 24px;
+            align-items: center;
+            background: transparent;
+            border: 1px solid black;
+            letter-spacing: 1px;
+            margin-bottom: 40px;
+            cursor: pointer;
+            text-transform: uppercase;
+          }
+    
+}
+@media (min-width:768px) and (max-width:1099px){
+  .container-fluid{
+    padding: 0;
+  }
+
+  .nav .ul{
+    color: black;
+    list-style: none;
+    font-weight: 500;
+    justify-content: center;
+    padding: 1px;
+  }
+
+  .nav-item{
+    padding: 0;
+    height: auto;
+  }
+
+.nav-link{
+  color: black;
+  padding: 0;
+  font-size: 14px;
+}
+
+
+
+  
+  nav .ul .li{
+    color: black;
+    cursor: pointer;
+  }
+
+  .select{
+    display: block !important;
+    background: transparent;
+    font-weight: 500;
+    border: 0;
+    padding-left: 10px;
+    gap: 0;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .logo{
+    margin-right: auto;
+    padding: 10px;
+    display: inline;
+    border: 2px solid black;
+}
+
+
+
+  .hero2-container{
+    height: auto;
+ }
+ .hero2 p{
+     padding: 20px 40px 20px 40px;
+     text-align: justify;
+ }
+
+ .heroimgdiv{
+  display: block;
+ 
+}
+.heroimgdiv{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.heroimg{
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 10px solid white;
+  height: 450px;
+  width: 600px;
+}
+.heroimg1{
+  position: absolute;
+  border: 10px solid white;
+  height: 250px;
+  top: 170px;
+  transform: rotate(330deg);
+  left: 40px;
+  width: 350px;
+}
+
+.heroimg2{
+  position: absolute;
+  border: 10px solid white;
+  height: 300px;
+  top: 280px;
+  left: 140px;
+  width: 500px;
+}
+
+.heroimg3{
+  position: absolute;
+  border: 10px solid white;
+  height: 350px;
+  top: 250px;
+  left: 400px;
+  transform: rotate(15deg);
+  width: 320px;
+}
+
+
+.hero3-container{
+  height: auto;
+  padding: 10px;
+ }
+
+ .hero3{
+     padding: 40px;
+ }
+ 
+
+ .hero3 ul{
+  padding: 0;
+  align-items: center;    
+  display: block;      
+ }
+
+ .hero3 ul li{
+  padding: 10px;
+ }
+
+ .hero3 ul .list p{
+     width: 100%;
+ }
+
+ .hero3 .list{
+     padding: 20px;
+ }
+ 
+ .hero3 ul .list h1{
+     padding: 0;
+ }
+
+ .hero4-container{
+  height: auto;
+}
+
+.hero4 h1{
+  padding-top: 40px;
+  width:auto ;
+}
+.hero4 p{
+  padding: 20px 40px 20px 40px;
+  text-align: justify;
+}
+
+.multiphotos{
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 100%;
+}
+
+.remainphotos{
+flex: 50%;
+width: 50%;
+height: 50%;
+}
+
+.fiftyphoto{
+width: 50%;
+height: 100%;
+background: url(five1.jpg);
+background-size: cover;
+}
+
+.bottomphoto{
+width: 100%;
+height: 100%;
+background: url(five4.jpg);
+background-size: cover;
+}
+
+.bottomphoto1{
+display: flex;
+width: 100%;
+height: 100%;
+}
+
+.otherphoto{
+width: 50%;
+height: 100%;
+background: url(five2.jpg);
+background-size: cover;
+}
+.otherphoto1{
+width: 50%;
+height: 100%;
+background: url(five3.jpg);
+background-size: cover;
+}
+
+
+.btnh4{
+  margin: 40px;
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+      .hero5{
+          display: block;
+      }
+      
+      .h5left{
+        padding: 0;
+        padding-top: 20px;
+        text-align: justify;
+        width: 100%;
+      }
+      
+      .hero5 p{
+          padding-top: 20px;
+          line-height: 25px;
+      }
+      
+      .hero5 ul{
+          list-style: none;
+          font-size: 12px;
+          text-transform: uppercase;
+          font-weight: 600;
+          letter-spacing: 0;
+          line-height: 30px;
+      }
+      
+      .hero5 ul i{
+        color: #cf352e;
+      }
+      
+      .hero5img{
+          float: none;
+          padding: 0;
+          height: 250px;
+          width: 350px;
+      }
+      
+      .blog-container{
+        height: auto;
+    }
+    .blogs h1{
+        padding: 40px;
+        padding-bottom: 0px;
+    }
+
+    .blogs p{
+        padding: 20px 40px 0px 40px;
+        text-align: justify;
+        color: gray;
+        line-height: 30px;
+    }
+    
+    .blog1{
+        padding: 20px 20px 20px 20px;
+        width: 90%;
+        color: white;
+    }
+    .blogimg{
+        height: 150px;
+        padding-left:0px;
+        padding-top:0px;
+    }
+    
+    .blogimg1{
+        height: 150px;
+        padding-left:0px;
+        padding-top:0px;
+    }
+    
+    
+    .blogimg2{
+        height: 150px;
+        padding-left:0px;
+        padding-top:0px;
+    }
+    
+
+    .tag{
+      justify-content:center;
+      font-size: 20px;
+      color: white;
+      align-items: center;
+      text-align: center;
+      position: absolute;
+      padding: 30px;
+      height: 78px;
+      display: flex;
+      background: #cf352e;
+      width: 15px;
+      border-bottom: 0px;
+      font-size: 40px;
+      border:0;  
+  
+  }
+  
+  
+  
+  .tag1{
+    display: block;
+    justify-content:center;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    text-align: center;
+      position: absolute;
+      padding: 30px;
+      height: 77px;
+      display: flex;
+      background: #28282B;
+      width: 15px;
+      border: 0;
+      border-top: 0px;
+      margin-top: 73px;
+  }
+  
+    
+    
+    
+    
+    .tag1 p{
+      color: white;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 16px;;
+    
+    }
+
+    .blogtext{
+        padding-left: 0px;
+        padding-top: 100px;
+        align-items: center;
+      }
+      
+      .blogtext h3{
+        padding-top: 60px;
+        font-size: 14px;
+          text-align: left;
+          cursor: pointer;
+          color: black;
+      }
+      
+      .blogtext .h41{
+        display: flexbox;
+        flex-wrap: wrap;
+          padding-right: 0px;
+          padding-top: 90px;
+          color: gray;
+          text-align: center;
+          text-decoration: none;
+      }
+      
+      .blogtext .h41 h4{
+        font-size: 12px;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+      
+      .blogtext span1{
+          margin: 0;
+          cursor: pointer;
+          margin-right: 10px;
+          letter-spacing: 1px;
+      }
+      
+      .blogbtn{
+      padding: 5px 10px;
+      text-transform: uppercase;
+      border: 1px solid black;
+      letter-spacing: 0px;
+      margin: 0;
+      cursor: pointer;
+      }
+      
+      .viewbtn{
+        margin-top: 20px;
+        padding: 6px 24px;
+        align-items: center;
+        background: transparent;
+        border: 1px solid black;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
+
+      .creative-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      
+      .creative{
+        margin: 0;
+        height: auto;
+      }
+      
+      .creative h1{
+        padding-top: 20px;
+        text-align: center;
+      }
+      
+      .creative p{
+        padding-top: 10px;
+        text-align: justify;
+        padding: 20px;
+      }
+      
+      .creative .gcontain{
+        display: flex;
+        flex-wrap: wrap;
+        background: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+      }
+      
+      .creative .grid{
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+        background: whitesmoke;
+        float: none;
+        
+      }
+      .grid .info h4{
+        padding-top: 10px;
+        font-size: 20px;
+      }
+
+      .info h5{
+        font-size:16px ;
+      }
+      
+      .info p{
+        padding: 10px;
+        font-size: 14px;
+        text-align: right;
+      }
+      .info .i{
+        display: flex;
+        padding: 10px;
+        float: right;
+        letter-spacing: 10px;
+      }
+
+      .grid .info2 h4{
+        padding-top: 10px;
+        font-size: 20px;
+      }
+
+      .info2 h5{
+        font-size:16px ;
+      }
+      
+      .info2 p{
+        padding: 10px;
+        font-size: 14px;
+        text-align: left;
+      }
+      .grid .info2 .i{
+        display: flex;
+        padding: 10px;
+        float: left;
+        letter-spacing: 10px;
+      }
+
+
+
+      
+      .grid .data{
+        float: right;
+        height: 100%;
+        padding: 10px;
+        background-size: cover;
+        width: 40%;
+        
+      }
+      
+      .grid .data1{
+        float: left;
+        height: 100%;
+        padding: 10px;
+        width: 40%;
+
+      }
+      
+      .grid .data2{
+        float: right;
+        height: 100%;
+        width: 40%;
+        padding: 10px;
+        
+      }
+      
+      
+      .grid .data3{
+        float: left;
+        height: 100%;
+        padding: 10px;
+        width: 40%;
+      }
+      
+      .grid .info{
+        margin-top: 30px;
+        margin-right: 20px;
+        height: 100%;
+        text-align: right;
+        line-height: 1.7;
+        width: auto;
+      }
+      
+
+        .membersbtn{
+          margin-top: 80px;
+          margin-bottom: 40px;        
+          background: transparent;
+          padding: 5px 20px;
+          font-size: 14px;
+          border: 1px solid black;
+          text-transform: capitalize;
+          cursor: pointer;
+          letter-spacing: 2px;
+        }
+
+
+        .qsection{
+          height: auto;
+        }
+
+      
+        .qsection i{
+          font-size: 20px;
+        }
+      
+        .qcontent p{
+          padding: 10px;
+          font-size: 14px;
+          text-align: justify;
+          font-style: italic;
+          color: gray;
+        }
+      
+        .qsection p span{
+          color: #cf352e;
+          line-height: 10px;
+          font-style: italic;
+        }
+        
+        .qsection h5{
+          font-style: italic;
+          font-size: 10px;
+          color: gray;
+        }
+
+        footer{
+
+          margin: 0;
+          height: auto;
+          color: white;
+          background: #28282B;
+        }
+      
+        .fsection{
+          align-items: center;
+        }
+      
+        .connectus{
+          display: flex;
+          padding: 10px;
+        }
+        .connectus h3{
+          font-size: 18px;
+          padding: 10px;
+          margin-top: 10px;
+          margin-left: 0px;
+          margin-right: auto;
+        }
+      
+        .connectus i{
+          margin-right: 20px;
+        }
+      
+        .aboutsec{
+          display: block;
+          margin-top: 0px;
+          color: gray;
+          height: auto;
+        }
+      
+        .about{
+          display: block;
+          padding: auto;
+         
+        }
+        .aboutsec h4{
+          padding-top: 0px;
+        }
+      
+        .about p{
+          padding-top: 10px;
+          line-height: 25px;
+          width: auto;
+        }
+      
+        .about1{
+          display: block;
+          align-items: center;
+          padding: 40px;
+          padding-top: 0px;
+          font-size: 16px;
+          width: auto;
+        }
+      
+      
+        .about1 address i{
+          padding-top: 20px;
+          padding: 20px;
+        }
+      
+      
+        .about1 address span{
+          line-height: 25px;
+          padding-left: auto;
+        }
+      
+        .about1 address span2{
+          padding-left: auto;
+        }
+      
+        .latestinfo{
+          padding-top: 20px;
+          display: flex;
+          width: auto;
+        }
+      
+        .latestphotos{
+          height: 80px;
+          width: 80px;
+        }
+      
+
+        .photosrender{
+          display: flex;
+          flex-wrap: wrap;
+          width: auto;
+          padding-top: 20px;
+        }
+        .instaphotos{
+          margin: 1px;
+          background-size: cover;
+        }
+        .instaphotos img{
+          height: 78px;
+          width: 78px;
+        }
+      
+        .copyright{
+          width: 100vw;
+        }
+      
+        .copyright p{
+          align-items: center;
+          text-align: center;
+          padding-top: 40px;
+          text-transform: uppercase;
+          letter-spacing:4px;
+          font-size: 15px;
+          color: gray;
+        }
+      
+        .footerlogo{
+         align-items: center;
+         padding-top: 40px;
+         text-align: center;
+        }
+      
+      
+        .footerlogo h1{
+          padding: 10px;
+          display: inline;
+          border: 2px solid black;
+          font-size: 25px;
+          border: 2px solid white;
+        }
+
+        .blogbtn{
+          padding: 5px 10px;
+          text-transform: uppercase;
+          border: 1px solid black;
+          letter-spacing: 0px;
+          margin: 0;
+          cursor: pointer;
+          }
+          
+          .viewbtn{
+            margin-top: 20px;
+            padding: 6px 24px;
+            align-items: center;
+            background: transparent;
+            border: 1px solid black;
+            letter-spacing: 1px;
+            margin-bottom: 40px;
+            cursor: pointer;
+            text-transform: uppercase;
+          }
+ 
+}
+
+@media (min-width:1100px){
+
+  .multiphotos{
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 100%;
+}
+
+.remainphotos{
+  flex: 50%;
+  width: 50%;
+  height: 50%;
+}
+
+.fiftyphoto{
+  width: 50%;
+  height: 100%;
+  background: url(five1.jpg);
+  background-size: cover;
+}
+
+.bottomphoto{
+  width: 100%;
+  height: 100%;
+  background: url(five4.jpg);
+  background-size: cover;
+}
+
+.bottomphoto1{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.otherphoto{
+  width: 50%;
+  height: 100%;
+  background: url(five2.jpg);
+  background-size: cover;
+}
+.otherphoto1{
+  width: 50%;
+  height: 100%;
+  background: url(five3.jpg);
+  background-size: cover;
+}
+
+
+
+
+
+}
+
